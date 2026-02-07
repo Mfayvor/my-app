@@ -2,8 +2,6 @@ import Home from "./assets/pages/Home";
 import About from "./assets/pages/About";
 import Contact from "./assets/pages/contact";
 import {
-  BrowserRouter as Router,
-  Routes,
   Route,
   createBrowserRouter,
   createRoutesFromElements,
