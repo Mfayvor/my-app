@@ -1,4 +1,6 @@
 import Home from "./assets/pages/Home";
+import About from "./assets/pages/About";
+import Contact from "./assets/pages/contact";
 import {
   BrowserRouter as Router,
   Routes,
@@ -15,6 +17,8 @@ function App() {
     createRoutesFromElements(
       <Route path="/" element={<MainLayout />}>
         <Route index element={<Home />} />
+        <Route path="/page/About" element={<About />} />
+        <Route path="/Contact" element={<Contact />} />
         <Route path="*" element={<NotFoundPage />} />
       </Route>,
     ),
