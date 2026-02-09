@@ -25,7 +25,7 @@ function About() {
             className="w-full sm:w-2/3 md:w-1/2 lg:w-1/3 rounded-lg shadow-lg object-cover"
           />
           <div className="flex flex-col justify-center space-y-6 lg:flex-1">
-            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800">
+            <h1 className="text-2xl text-center md:text-3xl lg:text-4xl font-bold text-gray-800">
               I am Favour Musa and I'm a Web Developer
             </h1>
             <p className="text-sm md:text-base text-gray-600 leading-relaxed text-justify">
