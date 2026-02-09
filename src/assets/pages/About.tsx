@@ -28,7 +28,7 @@ function About() {
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800">
               I am Favour Musa and I'm a Web Developer
             </h1>
-            <p className="text-sm md:text-base text-gray-600 leading-relaxed">
+            <p className="text-sm md:text-base text-gray-600 leading-relaxed text-justify">
               I'm a passionate web developer with strong skills in HTML, CSS,
               JavaScript, and React. I love building responsive, user-friendly
               interfaces and bringing creative ideas to life through clean,

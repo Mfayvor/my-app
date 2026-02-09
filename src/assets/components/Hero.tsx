@@ -14,7 +14,7 @@ function Hero() {
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800">
             Full-Stack Developer
           </h1>
-          <p className="p-2 text-sm md:text-base text-gray-600 leading-relaxed">
+          <p className="p-2 lg:text-sm sm:text-xs md:text-base text-gray-600 leading-relaxed">
             Hi, I'm Kao, a passionate full-stack developer with expertise in
             React, Node.js, and database management. I love creating dynamic and
             user-friendly web applications that solve real-world problems.

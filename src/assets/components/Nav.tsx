@@ -25,8 +25,10 @@ function Nav() {
       >
         <h1 className="p-2 flex items-center">
           <Link to="/">
-            <FaCoffee className=" text-red-900 inline-block mr-1.5 mb-1 text-3xl" />
-            <span className="text-red-900 text-2xl font-bold">Kao</span>
+            <FaCoffee className=" text-red-900 inline-block lg:mr-1.5 sm:mr-2.5 mb-1 lg:text-3xl sm:text-xl" />
+            <span className="text-red-900 lg:text-2xl sm:text-xl font-bold">
+              Kao
+            </span>
             <span
               className={`font-bold ${isHomePage ? "text-white" : "text-black"}`}
             >
@@ -34,7 +36,7 @@ function Nav() {
             </span>
           </Link>
         </h1>
-        <ul className="flex gap-4 items-center">
+        <ul className="flex lg:gap-4 sm:gap-2 items-center">
           <li className={navLinks}>
             <Link to="/">Home</Link>
           </li>
